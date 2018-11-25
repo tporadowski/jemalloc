@@ -39,6 +39,11 @@
 /include/jemalloc/jemalloc_rename.h
 /include/jemalloc/jemalloc_typedefs.h
 
+/msvc/.vs/
+/msvc/x64/
+/msvc/projects/vc2017/jemalloc/x64/
+/msvc/projects/vc2017/test_threads/x64/
+
 /src/*.[od]
 /src/*.gcda
 /src/*.gcno
