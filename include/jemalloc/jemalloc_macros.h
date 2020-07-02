@@ -4,13 +4,13 @@
 #include <limits.h>
 #include <strings.h>
 
-#define JEMALLOC_VERSION "@jemalloc_version@"
-#define JEMALLOC_VERSION_MAJOR @jemalloc_version_major@
-#define JEMALLOC_VERSION_MINOR @jemalloc_version_minor@
-#define JEMALLOC_VERSION_BUGFIX @jemalloc_version_bugfix@
-#define JEMALLOC_VERSION_NREV @jemalloc_version_nrev@
-#define JEMALLOC_VERSION_GID "@jemalloc_version_gid@"
-#define JEMALLOC_VERSION_GID_IDENT @jemalloc_version_gid@
+#define JEMALLOC_VERSION "5.2.1-0-gea6b3e973b477b8061e0076bb257dbd7f3faa756"
+#define JEMALLOC_VERSION_MAJOR 5
+#define JEMALLOC_VERSION_MINOR 2
+#define JEMALLOC_VERSION_BUGFIX 1
+#define JEMALLOC_VERSION_NREV 0
+#define JEMALLOC_VERSION_GID "ea6b3e973b477b8061e0076bb257dbd7f3faa756"
+#define JEMALLOC_VERSION_GID_IDENT ea6b3e973b477b8061e0076bb257dbd7f3faa756
 
 #define MALLOCX_LG_ALIGN(la)	((int)(la))
 #if LG_SIZEOF_PTR == 2

@@ -706,7 +706,7 @@ case "${host}" in
 	fi
 	abi="xcoff"
 	;;
-  *-*-mingw* | *-*-cygwin*)
+  *-*-mingw* | *-*-cygwin* | *-*-msys*)
 	abi="pecoff"
 	force_tls="0"
 	maps_coalesce="0"
@@ -1007,7 +1007,7 @@ if test "x${JEMALLOC_PREFIX}" = "x" ; then
 fi
 
 case "${host}" in
-  *-*-mingw* | *-*-cygwin*)
+  *-*-mingw* | *-*-cygwin* | *-*-msys*)
     wrap_syms="${wrap_syms} tls_callback"
     ;;
   *)
